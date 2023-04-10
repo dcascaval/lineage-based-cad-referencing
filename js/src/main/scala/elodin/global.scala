@@ -2,7 +2,6 @@ package elodin.global.js
 
 import scalajs.js
 import org.scalajs.dom.{console, window}
-import typings.stacktrace.*
 
 extension [T](promise: js.Promise[T])
   def map[Q](f: T => Q): js.Promise[Q] =
