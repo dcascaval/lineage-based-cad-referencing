@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CAD</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" data-name="vs/editor/editor.main"
+    href="js/target/scala-3.2.1/scalajs-bundler/main/node_modules/monaco-editor/min/vs/editor/editor.main.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <script>
+    window.global = window;
+    var require = { paths: { vs: 'js/target/scala-3.2.1/scalajs-bundler/main/node_modules/monaco-editor/min/vs/' } };
+  </script>
+  <script src="dist/nlopt/roundoff.js"></script>
+  <script src="dist/FileSaver.js"></script>
+  <script src="dist/jszip.min.js"></script>
+  <script src="dist/stacktrace.js"></script>
+  <script src="js/target/scala-3.2.1/scalajs-bundler/main/node_modules/monaco-editor/min/vs/loader.js"></script>
+  <script
+    src="js/target/scala-3.2.1/scalajs-bundler/main//node_modules/monaco-editor/min/vs/editor/editor.main.nls.js"></script>
+  <script
+    src="js/target/scala-3.2.1/scalajs-bundler/main//node_modules/monaco-editor/min/vs/editor/editor.main.js"></script>
+  <script type="text/javascript" src="./js/target/scala-3.2.1/scalajs-bundler/main/elodin-fastopt-library.js"></script>
+  <script type="text/javascript" src="./js/target/scala-3.2.1/scalajs-bundler/main/elodin-fastopt-loader.js"></script>
+  <script type="text/javascript" src="./js/target/scala-3.2.1/scalajs-bundler/main/elodin-fastopt.js"></script>
+</body>
+</html>

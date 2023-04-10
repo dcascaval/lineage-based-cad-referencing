@@ -1,0 +1,1 @@
+live-server --port=4000 --watch="index.html","main.css","dist/","js/target/scala-3.2.1/scalajs-bundler/main/elodin-fastopt.js" --no-browser
