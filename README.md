@@ -1,6 +1,10 @@
+### Demo
+
+A live hosted version of this code can be [found here](https://dcascaval.github.io/lineage/). Everything runs client-side.
+
 ### Setup
 
-This project uses Scala 3.2.1. We recommend installing with [Coursier](https://get-coursier.io/), which will also install SBT. You will also need NPM globally installed. To run the project, from the console:
+This project uses Scala 3.2.1 and Scala JS. We recommend installing with [Coursier](https://get-coursier.io/), which will also install SBT. You will also need NPM globally installed. To run the project, from the console:
 
 ```
 sbt
