@@ -506,7 +506,7 @@ object RenderObject:
             )
           case v: VerticalFace =>
             Seq(new Mesh(faceGeometry(v.parent, v.edge), fill))
-        val transformMatrix = getMatrixFromTransforms(f.parent.transforms ++ f.transforms)
+        val transformMatrix = getMatrixFromTransforms(f.transforms)
         for mesh <- meshes do applyTransformsToMesh(mesh, transformMatrix)
         meshes
 
